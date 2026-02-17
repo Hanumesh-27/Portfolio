@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smooth Scroll CSS</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial;
+        }
+
+        nav {
+            background: black;
+            padding: 15px;
+            text-align: center;
+            position: sticky;
+            top: 0;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-size: 18px;
+        }
+
+        section {
+            height: 100vh;
+            padding: 60px;
+        }
+
+        #home {
+            background: lightblue;
+        }
+
+        #about {
+            background: lightgreen;
+        }
+
+        #skills {
+            background: lightpink;
+        }
+
+        #contact {
+            background: lightgray;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <section id="home">
+        <h1>Welcome</h1>
+        <p>This is a Smooth Scroll webpage using CSS.</p>
+        <p>Scroll down using navbar links smoothly.</p>
+    </section>
+
+    <section id="about">
+        <h1>About Me</h1>
+        <p>My name is Gopinath.</p>
+        <p>I am studying Computer Science Engineering 2nd year.</p>
+        <p>I love learning programming and web development.</p>
+    </section>
+
+    <section id="skills">
+        <h1>My Skills</h1>
+        <ul>
+            <li>C Programming</li>
+            <li>Python</li>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>DBMS</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h1>Contact</h1>
+        <p>Email: gopy@gmail.com</p>
+        <p>Phone: +91 XXXXX XXXXX</p>
+        <p>Thank you for visiting 😊</p>
+    </section>
+
+</body>
+</html
